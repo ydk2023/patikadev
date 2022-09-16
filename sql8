@@ -1,0 +1,64 @@
+CREATE TABLE employee
+(id serial PRIMARY KEY,
+name varchar(50) NOT NULL,
+ birthday date
+);
+
+insert into employee (id, name, birthday) values (1, 'Andrew', '1999-09-02');
+insert into employee (id, name, birthday) values (2, 'Mirabel', '2005-09-15');
+insert into employee (id, name, birthday) values (3, 'Kathie', '2015-01-14');
+insert into employee (id, name, birthday) values (4, 'Kizzie', '2021-07-18');
+insert into employee (id, name, birthday) values (5, 'Caitrin', '2017-05-21');
+insert into employee (id, name, birthday) values (6, 'Dorree', '1993-09-13');
+insert into employee (id, name, birthday) values (7, 'Ainslie', '1963-06-25');
+insert into employee (id, name, birthday) values (8, 'Lammond', '1997-07-19');
+insert into employee (id, name, birthday) values (9, 'Roxine', '1996-06-05');
+insert into employee (id, name, birthday) values (10, 'Marlowe', '2003-03-18');
+insert into employee (id, name, birthday) values (11, 'Delcine', '1983-12-07');
+insert into employee (id, name, birthday) values (12, 'Ned', '1952-10-16');
+insert into employee (id, name, birthday) values (13, 'Claribel', '1960-09-18');
+insert into employee (id, name, birthday) values (14, 'Roslyn', '1991-03-16');
+insert into employee (id, name, birthday) values (15, 'Harrietta', '2007-07-05');
+insert into employee (id, name, birthday) values (16, 'Chrystel', '1998-11-20');
+insert into employee (id, name, birthday) values (17, 'Gerard', '2015-05-18');
+insert into employee (id, name, birthday) values (18, 'Gerardo', '1955-03-27');
+insert into employee (id, name, birthday) values (19, 'Ardyth', '1973-11-20');
+insert into employee (id, name, birthday) values (20, 'Samson', '1983-07-19');
+insert into employee (id, name, birthday) values (21, 'Dwayne', '2010-01-04');
+insert into employee (id, name, birthday) values (22, 'Catherine', '1975-06-20');
+insert into employee (id, name, birthday) values (23, 'Marnie', '2022-06-22');
+insert into employee (id, name, birthday) values (24, 'Kelbee', '2005-01-18');
+insert into employee (id, name, birthday) values (25, 'Marin', '1960-01-23');
+insert into employee (id, name, birthday) values (26, 'Stephenie', '1992-03-22');
+insert into employee (id, name, birthday) values (27, 'Dorita', '2010-11-06');
+insert into employee (id, name, birthday) values (28, 'Garrik', '2007-05-31');
+insert into employee (id, name, birthday) values (29, 'Shelley', '1956-01-15');
+insert into employee (id, name, birthday) values (30, 'Keely', '1991-05-29');
+insert into employee (id, name, birthday) values (31, 'Tann', '1961-09-28');
+insert into employee (id, name, birthday) values (32, 'Dyanne', '2011-10-21');
+insert into employee (id, name, birthday) values (33, 'Cathi', '1977-01-20');
+insert into employee (id, name, birthday) values (34, 'Alf', '1985-03-06');
+insert into employee (id, name, birthday) values (35, 'Alexandra', '1983-08-11');
+insert into employee (id, name, birthday) values (36, 'Alford', '1954-05-09');
+insert into employee (id, name, birthday) values (37, 'Goldie', '1971-02-12');
+insert into employee (id, name, birthday) values (38, 'Dacy', '2010-06-25');
+insert into employee (id, name, birthday) values (39, 'Shaylyn', '1959-01-04');
+insert into employee (id, name, birthday) values (40, 'Spencer', '2006-06-24');
+insert into employee (id, name, birthday) values (41, 'Cosme', '1962-10-15');
+insert into employee (id, name, birthday) values (42, 'Tamara', '1967-12-26');
+insert into employee (id, name, birthday) values (43, 'Vin', '2012-06-04');
+insert into employee (id, name, birthday) values (44, 'Aaren', '2019-04-11');
+insert into employee (id, name, birthday) values (45, 'Corrine', '1965-11-26');
+insert into employee (id, name, birthday) values (46, 'Jehanna', '1992-03-30');
+insert into employee (id, name, birthday) values (47, 'Gradey', '2008-04-30');
+insert into employee (id, name, birthday) values (48, 'Simeon', '1959-09-17');
+insert into employee (id, name, birthday) values (49, 'Haskell', '2005-11-15');
+insert into employee (id, name, birthday) values (50, 'Jerri', '2002-06-05');
+
+update employee
+set name= 'ahmet',
+	birthday='2000/01/01'
+where id=5;
+
+delete from employee
+where name='Mirabel';
